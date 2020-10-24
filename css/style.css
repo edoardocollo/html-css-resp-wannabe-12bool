@@ -80,7 +80,7 @@ img {
 /* MEDIUM VIEW SETTINGS */
 @media all and (min-width: 420px) and (max-width: 768px) {
   .container .row [class*="col_"] {
-    padding: 10px 0;
+    padding: 10px 10px;
   }
   .row {
     font-size: 15px;
@@ -114,7 +114,7 @@ img {
 /* SMALL VIEW SETTINGS */
 @media all and (max-width: 420px) {
   .container .row [class*="col_"] {
-    padding: 10px 0;
+    padding: 10px 10px;
   }
   .row {
     margin-top: 0;
