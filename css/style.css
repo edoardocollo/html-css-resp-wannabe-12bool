@@ -1,6 +1,6 @@
 
 /* LARGE VIEW SETTINGS */
-/* lasciato codice originale obsoleto a seguito modifiche */
+/* lasciato codice originale obsoleto tra commenti a seguito modifiche */
 .row {
   max-width: 992px;
   margin-left: auto;
@@ -79,6 +79,8 @@ img {
 
 /* MEDIUM VIEW SETTINGS */
 @media all and (min-width: 420px) and (max-width: 768px) {
+
+  /* margin padding & typography */
   .container .row [class*="col_"] {
     padding: 10px 10px;
   }
@@ -86,9 +88,6 @@ img {
     font-size: 15px;
     margin-top: 0;
     padding-top: 20px;
-  }
-  img {
-    height: 120px;
   }
   #why .row .col_12_lg {
 
@@ -105,14 +104,27 @@ img {
   hr {
     margin-top: 20px;
   }
+  /* /margin padding & typography */
+
+  /* img style */
+  img {
+    height: 120px;
+  }
+  /* /img style */
+
+  /* colours */
   .bg_p {
     background-color: pink;
   }
+  /* /colours */
+
 }
 /* /MEDIUM VIEW SETTINGS */
 
 /* SMALL VIEW SETTINGS */
 @media all and (max-width: 420px) {
+
+  /* margin padding & typography */
   .container .row [class*="col_"] {
     padding: 10px 10px;
   }
@@ -125,9 +137,6 @@ img {
 
     margin-top: 0;
   }
-  img {
-    height: 80px;
-  }
   h1 {
     font-size: 20px;
     margin-bottom: 20px;
@@ -139,9 +148,19 @@ img {
   hr {
     margin: 20px 0;
   }
+  /* /margin padding & typography */
+
+  /* img style   */
+  img {
+    height: 80px;
+  }
+  /* img style   */
+
+  /* colours */
   .bg_y {
     background-color: lightyellow;
   }
+  /* colours */
 
 }
 /* /SMALL VIEW SETTINGS */
